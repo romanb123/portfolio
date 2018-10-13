@@ -1,3 +1,52 @@
 body{
-    background-color: blue;
+    background-color: brown;
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:0;
+    margin:0;
+}
+/*all elements wich have container class,global*/
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+ ul{
+    padding:0;
+    marging:0;
+}
+/*header settings*/
+header{
+    background-color: grey;
+    color:brown;
+    min-height: 70px;
+    padding-top:10px;
+    border-bottom:solid black 3px;
+    border-top:solid black 1px;
+}
+header a{
+    text-decoration: none;
+    color:black;
+}
+
+header li{
+    float: left;
+     display:inline;
+    margin:0 20px 0 20px;
+}
+
+header #website_title{
+    float: left;
+}
+header #website_title h1{
+    margin:0;
+}
+header nav{
+    float: right;
+    margin-top:1px;
+}
+header .highlight, header .current a{
+    font-weight: bold;
+    color:white;
 }
