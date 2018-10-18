@@ -49,3 +49,30 @@ header .highlight, header .current a{
     font-weight: bold;
     color:white;
 }
+header a:hover{
+color:brown;    
+font-weight: bold;
+}
+
+/*showcase-settings*/
+
+#showcase{
+min-height: 400px;
+background-image:url(/images/denis-harsch-424073-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+
+
+}
+#showcase h1{
+    color:brown;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+#showcase p{
+    color:brown;
+    font-size:45px;
+}
