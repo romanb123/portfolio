@@ -137,7 +137,7 @@ footer{
 
 
 /*small device screen*/
-@media(max-width:890px){
+@media(max-width:720px){
     header #website_title,
     header nav,
     header nav li,
