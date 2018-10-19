@@ -6,6 +6,20 @@ body{
     padding:0;
     margin:0;
 }
+h3{
+    padding:3px;
+    margin: 3px;
+}
+/*button*/
+.button_1{
+    height:30px;
+    width:80px;
+    background-color: brown;
+    border:none;
+    color:white;
+    padding-left:5px;
+    padding-right:5px; 
+}
 /*all elements wich have container class,global*/
 .container{
     width: 80%;
@@ -14,7 +28,7 @@ body{
 }
  ul{
     padding:0;
-    marging:0;
+    margin:0;
 }
 /*header settings*/
 header{
@@ -77,6 +91,100 @@ text-align: center;
     font-size:45px;
 }
 
+/*newsletter*/
+#newslater{
+    padding:10px;
+    color:brown;
+    background-color: white;
+}
+#newslater h1{
+float: left;
+margin:0;
+}
+#newslater form{
+    float: right; 
+margin-top: 15px;
+}
+#newslater input[type="email"]{
+    padding:7px;
+    height:15px;
+    width:290px;
+    border-color: brown;
+}
+
+/*boxes*/
+#boxes{
+    padding:30px;
+    border:white 1px solid;
+}
+#boxes .box img{
+width: 60px;
+}
+#boxes .box{
+    float:left;
+    width:30%;
+    text-align: center;
+    padding: 15px;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    margin-top:13px;
+    padding:17px;
+    background-color: white;
+}
+
+
+/*small device screen*/
+@media(max-width:768px){
+    header #website_title,
+    header nav,
+    header nav li,
+    #boxes .box
+   
+   {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding:1px;
+        margin:2px;
+        
+    }
+    #showcase{
+        min-height:200px;
+       max-height:225px;
+    }
+    #showcase h1,
+    #showcase p{
+margin-top:14px;
+margin-bottom: 0;
+padding:0;
+font-size: 25px;
+color:white;
+    }
+     #newslater h1,
+    #newslater form,
+    #newslater input[type="email"]
+    {
+      text-align: center; 
+      font-size: 30px;
+      float: none;
+      width: 92%; 
+      margin: auto;
+    }
+    #boxes .box{
+        border:white solid 1px;
+        width: 97%;
+        margin:0;
+    }
+    #boxes .box img,
+    #boxes .box h1,
+    #boxes .box p{
+        margin-top:7px;
+        padding:0px;
+    }
+}
 
 
 
