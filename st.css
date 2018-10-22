@@ -1,0 +1,101 @@
+
+body{
+    text-align: center;
+}
+.head{
+    background-color:brown;
+}
+.expolanation{
+    padding-bottom: 5px;
+}
+.anim{
+    margin-top: 5px;
+    border:solid black 1px;
+}
+
+.sky1{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: grey;
+}
+.sky2{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: grey;
+}
+.sky3{
+    width: 100%;
+    height: 150px;
+  ;
+    background-color: grey;
+}
+.sky4{
+    width: 100%;
+    height: 150px;
+ 
+    background-color: grey;
+}
+   
+    
+
+.ball1{
+position: relative;
+
+left:0px;
+height: 50px;
+width:50px;
+padding:auto;
+line-height:55px;
+margin:5px auto;
+background-color:black;
+color:white;
+border-radius: 50px;
+cursor: pointer;
+animation: move 3s infinite;
+}
+
+.ball2{
+    position: relative;
+    
+    left:0px;
+    height: 50px;
+    width:50px;
+    padding:auto;
+    line-height:55px;
+    margin:5px auto;
+    background-color:black;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+    animation: move 3s infinite reverse;
+    animation-delay:3s;
+ 
+}
+
+    .ball3{
+        position:relative;
+        left:0px;
+        height: 50px;
+        width:50px;
+        padding:auto;
+        line-height:55px;
+        margin:5px auto;
+        background-color:black;
+        color:white;
+        border-radius: 50px;
+        cursor: pointer;
+        animation: move 3s infinite;
+        animation-delay:6s;
+        animation-direction: alternate-reverse;
+
+    
+}
+@keyframes move{
+    0%{transform:translateX(-300px)}
+    100%{transform:translateX(600px)}
+   
+}
+
+
