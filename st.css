@@ -1,16 +1,73 @@
 
 body{
     text-align: center;
+    margin: 0;
+    padding:0;
 }
-.head{
-    background-color:brown;
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+p{
+ padding:0px;
+ margin: 0px;   
 }
 .expolanation{
-    padding-bottom: 5px;
+    background-color: brown;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    border-bottom:black solid 3px;
+
 }
+ ul{
+    padding:0;
+    margin:0;
+}
+/*header settings*/
+header{
+    background-color: grey;
+    color:brown;
+    min-height: 70px;
+    padding-top:10px;
+    border-bottom:solid black 3px;
+    border-top:solid black 1px;
+}
+header a{
+    text-decoration: none;
+    color:black;
+}
+header li{
+    float: left;
+     display:inline;
+    margin:0 20px 0 20px;
+}
+
+header #website_title{
+    float: left;
+}
+header #website_title h1{
+    margin:0;
+}
+header nav{
+    float: right;
+    margin-top:1px;
+}
+header .highlight, header .current a{
+    font-weight: bold;
+    color:white;
+}
+header a:hover{
+color:brown;    
+font-weight: bold;
+}
+
 .anim{
-    margin-top: 5px;
-    border:solid black 1px;
+    margin-top: 0px;
+    padding-top: 0px;
+   
 }
 
 .sky1{
@@ -18,6 +75,8 @@ body{
     height: 150px;
     position: relative;
     background-color: grey;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 .sky2{
     width: 100%;
