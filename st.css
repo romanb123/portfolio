@@ -13,6 +13,9 @@ p{
  padding:0px;
  margin: 0px;   
 }
+
+/*heading*/
+
 .expolanation{
     background-color: brown;
     margin-bottom: 0px;
@@ -69,7 +72,7 @@ font-weight: bold;
     padding-top: 0px;
    
 }
-
+/*row---------1*/
 .sky1{
     width: 100%;
     height: 150px;
@@ -77,19 +80,24 @@ font-weight: bold;
     background-color: grey;
     margin-top: 0px;
     padding-top: 0px;
+   
 }
+/*row----------2*/
 .sky2{
     width: 100%;
     height: 150px;
     position: relative;
     background-color: grey;
+
 }
+/*row-----------3*/
 .sky3{
     width: 100%;
     height: 150px;
   ;
     background-color: grey;
 }
+/*row-------------4*/
 .sky4{
     width: 100%;
     height: 150px;
@@ -97,7 +105,7 @@ font-weight: bold;
     background-color: grey;
 }
    
-    
+ /*ball----------1*/   
 
 .ball1{
 position: relative;
@@ -114,7 +122,7 @@ border-radius: 50px;
 cursor: pointer;
 animation: move 3s infinite;
 }
-
+ /*ball-----------2*/  
 .ball2{
     position: relative;
     
@@ -132,7 +140,7 @@ animation: move 3s infinite;
     animation-delay:3s;
  
 }
-
+/*ball-----------------2*/  
     .ball3{
         position:relative;
         left:0px;
@@ -149,7 +157,7 @@ animation: move 3s infinite;
         animation-delay:6s;
         animation-direction: alternate-reverse;
 
-    
+ /*animation function*/   
 }
 @keyframes move{
     0%{transform:translateX(-300px)}
