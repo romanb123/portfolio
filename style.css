@@ -194,5 +194,11 @@ color:white;
         margin-top:7px;
         padding:0px;
     }
+    .visible{
+        background-color: rgb(128, 31, 39);
+    }
+    .unvisible{
+        display:none;
+    }
 }
 
