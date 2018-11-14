@@ -18,13 +18,21 @@
            </div>
      
      <!--navigation bar-->
-           <nav>
-             <ul>
-                <li><a href="index.html">home</a></li>
-                <li class="current"><a href="animations.html">css3</a></li>
-                <li ><a href="jsp.html">js</a></li>
-             </ul>
-           </nav>
+     <nav>
+            <ul>
+              <li class="current"><a href="index.html">home</a></li>
+             
+              <li ><a id="openclose">projects</a>
+              
+              <ul> 
+                <div id="drop" class="unvisible">
+              <li><a href="animations.html">css3</a></li>
+              <li ><a href="jsp.html">js</a></li>
+            </div>
+          </li> 
+        </ul>
+           </ul>
+          </nav>
      
          </div>
      </header>
@@ -39,5 +47,6 @@
     <div class="sky3"></div>
     <div class="ball3">3</div>
     </div>
+    <script src="animation.js"></script>
 </body>
 </html>

@@ -8,6 +8,7 @@ body{
     width: 80%;
     margin:auto;
     overflow: hidden;
+    padding:3px;
 }
 p{
  padding:0px;
@@ -25,9 +26,24 @@ p{
     border-bottom:black solid 3px;
 
 }
- ul{
+ul{
     padding:0;
     margin:0;
+    list-style: none;
+}
+header ul li{
+    float: left;
+     width: 90px;
+    border:white 1px solid;
+    padding:1px;
+    text-align: center;
+    background-color: red;
+}
+.visible{
+    background-color: rgb(128, 31, 39);
+}
+.unvisible{
+    display:none;
 }
 /*header settings*/
 header{
@@ -42,11 +58,7 @@ header a{
     text-decoration: none;
     color:black;
 }
-header li{
-    float: left;
-     display:inline;
-    margin:0 20px 0 20px;
-}
+
 
 header #website_title{
     float: left;
@@ -58,6 +70,7 @@ header nav{
     float: right;
     margin-top:1px;
 }
+
 header .highlight, header .current a{
     font-weight: bold;
     color:white;
@@ -165,4 +178,20 @@ animation: move 3s infinite;
    
 }
 
+
+@media(max-width:720px){
+    header #website_title,
+    header nav,
+    header nav li
+   
+   {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding:1px;
+        margin:2px;
+        
+    }
+
+}
 

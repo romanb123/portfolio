@@ -41,10 +41,19 @@ header a{
     text-decoration: none;
     color:black;
 }
-header li{
+header ul li{
     float: left;
-     display:inline;
-    margin:0 20px 0 20px;
+     width: 90px;
+    border:white 1px solid;
+    padding:1px;
+    text-align: center;
+    background-color: red;
+}
+.visible{
+    background-color: rgb(128, 31, 39);
+}
+.unvisible{
+    display:none;
 }
 
 header #website_title{
