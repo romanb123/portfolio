@@ -161,6 +161,14 @@ footer{
         margin:2px;
         
     }
+    header ul li{
+        float: left;
+         width: 90px;
+        border:white 1px solid;
+        padding:1px;
+        text-align: center;
+        background-color: red;
+    }
     #showcase{
         min-height:200px;
        max-height:225px;
