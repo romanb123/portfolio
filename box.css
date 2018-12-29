@@ -1,6 +1,9 @@
 .main,.sidebar{
     text-align: center;
 }
+a{
+    text-decoration: none;
+}
 .header{
     height: 50px;
     width: 100%;
