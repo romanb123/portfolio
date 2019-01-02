@@ -84,3 +84,21 @@ background-color: blue;
     width: 100%;
     float: left;
 }
+
+@media screen and (max-width:400px) and (min-width:200px){
+ 
+.header,.one,.sidebar,.si,.two,.footer,.main,.side{
+   float:none;
+   width:100%;
+
+}
+.si,.two{
+height:110px;
+}
+.main,.sidebar{
+height:50%;
+}
+.side{
+    height:150px;
+}
+}
