@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .main,.sidebar{
     text-align: center;
 }
@@ -28,7 +31,7 @@ a{
 .main{
     background-color: green;  
     float: left; 
-    width: 1266px;
+    width: 80%;
     height:600px;
 }
 .main h2{
@@ -37,33 +40,47 @@ a{
 }
 .one{
  background-color: red;
- height: 400px;   
+ height: 60%;  
+ width: 100%; 
 }
 .two{
     background-color: beige;
     float: left;
-    border:1px solid black;
-    width: 420px;
-    height: 200px;
+    width: 33.33333333%;
+    height:40%;
 
 }
+.two:nth-child(2){
+background-color: blue;
+}
+.two:nth-child(3){
+    background-color: black;
+    color: beige;
+    }
+    .two:nth-child(4){
+        background-color: blue;
+        }
+
 .sidebar{
+    float: left;
     background-color: brown;
     height: 600px;
-    width:1520px;
+    width:20%;
 }
 .side{
     background-color: green;
-    height:250px;
+    height:40%;
+    width: 100%;
 }
 .si{
-    height:115px;
+    height:20%;
     background-color: yellow;
     border: 1px black solid;
 }
 .footer{
-    background-color: black;
+    background-color: red;
     color: beige;
     height: 50px;
     width: 100%;
+    float: left;
 }
