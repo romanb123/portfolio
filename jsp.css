@@ -5,6 +5,7 @@ body{
 }
 .navbar-toggle{
     float: none;
+    margin-right:0; 
 }
 .container{
     width: 80%;

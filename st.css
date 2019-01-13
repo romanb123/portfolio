@@ -12,6 +12,7 @@ body{
 }
 .navbar-toggle{
     float: none;
+    margin-right:0; 
 }
 p{
  padding:0px;
