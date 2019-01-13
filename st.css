@@ -10,6 +10,9 @@ body{
     overflow: hidden;
     padding:3px;
 }
+.navbar-toggle{
+    float: none;
+}
 p{
  padding:0px;
  margin: 0px;   
