@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+}
+.intro{
+    background-color: blue;
+}
+.ist-group-item{
+    
+    width: 100%;    
+}
+
+.list-group{
+text-align: center;
+}
+.btn{
+    width: 25%;
+    height:10%;
+}
