@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-3.3.7-dist/css/to_do.css" />
+    <script src="bootstrap-3.3.7-dist/jquery/jquery-3.3.1.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   
 
 </head>
-<body onclick="remove(event)">
+<body >
     <nav class="nav navbar-inverse">
         <div class="container">
             <div class="navbar-header"><h3 style="margin-top: 10px;color:white">roma portfolio</h3>
@@ -21,7 +23,7 @@
                 </button>  
             </div>
                  <div class="collapse navbar-collapse" id="colmenu">
-                    <ul class="nav navbar-nav" >
+                    <ul class="nav navbar-nav">
                             <li ><a href="index.html">home</a></li>
                             <li ><a href="to_do.html">to do list</a></li>
                             <li ><a href="jsp.html">javascript</a></li>
@@ -46,7 +48,7 @@
  </div>
  
  <div class="container-fluid">
-  <ul class="list-group" id="myDIV">
+  <ul class="list-group" id="myDIV" onclick="remove(event)">
      <li class="list-group-item">mission 1</li>
      <button type="button" class="btn btn-primary btn-lg" >delete1</button>
      
@@ -56,8 +58,8 @@
     <div class="container">
        <div class="navbar-header"><h3 style="margin-top: 10px;color:white">js DOM project 2</h3></div>
     </div>
-</nav>
+</nav>  
   <script src="bootstrap-3.3.7-dist/js/to_do.js"></script> 
-  <script src="bootstrap-3.3.7-dist/jquery/jquery-3.3.1.js"></script>
+
 </body>
 </html>

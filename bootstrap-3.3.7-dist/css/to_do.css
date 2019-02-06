@@ -16,3 +16,9 @@ text-align: center;
     width: 25%;
     height:10%;
 }
+.navbar-fixed-bottom{
+    margin-top:55px;
+}
+.navbar-toggle{
+float: none;
+}
