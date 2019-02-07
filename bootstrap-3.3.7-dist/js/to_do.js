@@ -1,8 +1,7 @@
 
 
-
 function getvalue(){
-var mission=document.getElementById('forma');
+    var mission=document.getElementById('forma');
 console.log(mission[0].value);
 var info=document.getElementsByClassName('list-group-item');
 console.log(info);
