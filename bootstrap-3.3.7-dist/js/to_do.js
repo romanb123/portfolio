@@ -20,7 +20,7 @@ button.innerText="delete";
 function remove(){
     var i=0;
 var e=event.target;
-if(e.className=="btn btn-primary btn-lg"){
+if(e.className=="btn btn-primary btn-lg"&&e.className!="demo"){
 console.log(e.parentNode);
 var r=e.parentNode;
 console.log(r.childNodes);
