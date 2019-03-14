@@ -17,7 +17,7 @@ body {
     color: blue;
     padding: 3px;
     height: 300px;
-    border: 10px solid transparent;
+    border: 1px solid rgb(0, 140, 255);
     overflow: auto;
     background-size: cover;
     word-break: break-all;
