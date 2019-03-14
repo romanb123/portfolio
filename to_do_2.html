@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-4.3.1-dist/css/to_do_2_style.css">
+    <script src="bootstrap-4.3.1-dist/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/to_do_2.js"></script>
+
+</head>
+ <!-- nav -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">roma portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="to_do_2.html">to do list_new</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="circle_calculator.html">JS-calculator</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="to_do.html">JS-to do list</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="slider.html">JS-gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="modal.html">JS+bootatrap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="animations.html">css</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="table.html">html-table</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="box.html">box model</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+
+      </span>
+    </div>
+  </nav>
+ <!-- intro -->
+<body onload="loadStorage()">
+    <div class="jumbotron text-center" >
+        <h1>to_do list project</h1>
+        <p id="heading">to_do list project JS-DOM+JSON+local-storage</p>
+    </div>
+   
+    
+
+    <!-- form -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <div class="form-group forma">
+                    <label for="usr">mission:</label>
+                    <textarea  class="form-control" rows="5" id="mission_text"></textarea>
+
+                    <label for="pwd">date:</label>
+                    <input type="date" class="form-control" id="mission_date">
+
+                    <label for="pwd">time:</label>
+                    <input type="time" class="form-control" id="mission_time">
+
+                </div>
+                <button type="button" class="btn btn-primary btn-lg" onclick="clearall()">reset</button>
+                <button type="button" class="btn btn-secondary btn-lg" onclick="divcreate()">add</button>
+            </div>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </div>
+
+    <!-- missions section -->
+
+    <div class="container-fluid">
+        <div class="row" id="missionsrow">
+         
+        </div>
+    </div>
+   
+
+</body>
+
+</html>
+
+
+
