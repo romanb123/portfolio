@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-4.3.1-dist/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css" />
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+  <script src="javascript/slider.js"></script>
+
+</head>
+
+<body>
+  <!-- navmenu -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Home</a>
+          <a class="nav-item nav-link" href="to_do_2.html">to_do_2</a>
+          <a class="nav-item nav-link" href="test.html">calculator_js</a>
+          <a class="nav-item nav-link " href="modal.html">modal-bootstrap</a>
+        </div>
+      </div>
+    </nav>
+        <!-- jumbo -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">slider</h1>
+    <p class="lead">slider/carousel/gallary creation with javascript DOM/bootstrap 4</p>
+  </div>
+</div> 
+  <!-- carusell -->
+  <div class="row ofslifer">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" id="inner">  
+          <div class="carousel-item active">
+              <img src="images/12.jpg" class="d-block w-100">
+            </div>     
+      </div>
+        <!-- carusell Controls -->
+        <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+      <!-- form -->
+      <div class="container-fluid">
+        <div class="row down" id="therow">
+          <div class="col-lg-4 first_col">
+            <div class="form-group">
+              <input type="url" id="inside">
+            </div>
+            <button type="submpit" class="btn btn-primary btn-lg btn-block" onclick="geturl()">press to insert to
+              gallery</button>
+            <p>insert the url of the image and press the button to add it to the gallery</p>
+          </div>
+          <!-- gallary -->
+          <div class="col-lg-1 glr" id="gallery">
+            <img src="images/12.jpg" width="100px" height="100%">
+          </div>
+        </div>
+      </div>
+
+</body>
+
+</html>
