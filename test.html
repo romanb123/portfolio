@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/test.css">
+    <script src="bootstrap-4.3.1-dist/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <script src="javascript/test.js"></script>
+
+
+</head>
+
+<body>
+      <!-- navmenu -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="to_do_2.html">to_do_2</a>
+                <a class="nav-item nav-link active" href="test.html">calculator_js</a>
+                <a class="nav-item nav-link" href="#">Disabled</a>
+              </div>
+            </div>
+          </nav>
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>circle area calculator</h1>
+            <p>circle area calculator/js/canvas</p>
+        </div>
+    </div>
+    <!-- Control the column width, and how they should appear on different devices -->
+    <div class="row">
+        <div class="col-sm-12 col-lg-6 columb">
+
+            <!-- form -->
+
+            <div class="form-group">
+                <label for="usr">enter the radius of the circle</label>
+                <input type="text" class="form-control" id="usr">
+                <button type="button" class="btn btn-primary btn-block" onclick="calculate()">press to calculate the area</button>
+                <label for="pwd">the area of the circle:</label>
+                <br>
+                <span id="showvolume"></span>
+            </div>
+        </div>
+
+
+
+<!-- screen section -->
+
+        <div class="col-sm-12 col-lg-6 columb">
+<!-- show the circle(canvas): -->
+<canvas id="myCanvas" width="400" height="400" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+        <button type="button" class="btn btn-primary btn-block" onclick="clearscreen()">press to clear  the screen</button>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
