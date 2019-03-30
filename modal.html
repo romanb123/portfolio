@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-4.3.1-dist/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/modal.css" />
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+  <script src="javascript/modal.js"></script>
+
+</head>
+
+<body>
+   <!-- navmenu -->
+   <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link " href="index.html">Home</a>
+          <a class="nav-item nav-link" href="to_do_2.html">to_do_2</a>
+          <a class="nav-item nav-link" href="test.html">calculator_js</a>
+          <a class="nav-item nav-link active" href="modal.html">modal-bootstrap</a>
+        </div>
+      </div>
+    </nav>
+     <!-- jombotron -->
+     <div class="jumbotron text-center" >
+        <h1>modal-bootstrap+js</h1>
+        <p id="heading">slider/gallary creation with javascript DOM/modal</p>
+    </div>
+
+
+   <!-- Small modal -->
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modalconten" >
+      <img src=""  id="modalpic">
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="container-fluid">
+
+    <div class="row down" id="therow">
+      <div class="col-lg-4 first_col">
+        <div class="form-group">
+          <input type="url" id="inside">
+        </div>
+        <button type="submpit" class="btn btn-primary btn-lg btn-block" onclick="geturl()">press to insert to gallery</button>
+        <p>insert the url of the image and press the button to add it to the gallery</p>
+        <p>*press on the image to see it larger size*</p>
+      </div>
+         
+ </div>
+
+       
+  </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
