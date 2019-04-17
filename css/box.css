@@ -1,0 +1,66 @@
+.main,.sidebar{
+    text-align: center;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.header h2{
+    width:77px;
+    float: left;
+    margin-bottom:0;
+    margin-top: 11px;
+}
+.header ul{
+    margin-left:78px;
+}
+.header li{
+  float: left;
+  margin-left: 16px;
+  margin-top: 14px;
+  list-style:none;
+}
+.main{
+    background-color: green;  
+    float: left; 
+    width: 1266px;
+    height:600px;
+}
+.main h2{
+    margin: 0;
+   padding-top: 140px;
+}
+.one{
+ background-color: red;
+ height: 400px;   
+}
+.two{
+    background-color: beige;
+    float: left;
+    border:1px solid black;
+    width: 420px;
+    height: 200px;
+
+}
+.sidebar{
+    background-color: brown;
+    height: 600px;
+    width:1520px;
+}
+.side{
+    background-color: green;
+    height:250px;
+}
+.si{
+    height:115px;
+    background-color: yellow;
+    border: 1px black solid;
+}
+.footer{
+    background-color: black;
+    color: beige;
+    height: 50px;
+    width: 100%;
+}
